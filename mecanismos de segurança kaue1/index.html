@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Security Survey</title>
+  <meta name="description" content="Survey">
+  <meta name="author" content="Luke Lehane">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container">	
+    <div class="row">
+  	  <div class="two-thirds column">
+        <h2>Mecanismos de Segurança</h2>
+
+        <div id="progress_bar"></div>
+  	  	<form class="questions_box">
+
+  	  		<div id="question-1">
+  	  		  <h2>Questão 1</h2>
+  	  			<h5>Assinale a alternativa contendo as informações VERDADEIRAS: <br>
+              <br>I-A política de segurança pode conter outras políticas específicas, como: Política de confiabilidade, Política de backup, Política de privacidade e Política de compartilhamento de senhas. <br>
+              <br>II-Algumas situações que geralmente são consideradas de uso abusivo são: divulgação de informações confidenciais, envio de boatos e mensagens contendo spam e códigos maliciosos, atenção á política de confidencialidade da empresa e envio de mensagens com objetivo de difamar, caluniar ou ameaçar alguém. <br>
+              <br>III-Política de uso aceitável (PUA) ou Acceptable Use Policy (AUP):também chamada de “Termo de Uso” ou “Termo de Serviço”, define as regras de uso dos recursos computacionais, os direitos e as responsabilidades de quem os utiliza e as situações que são consideradas abusivas e distribui material protegido por direitos autorais. <br>
+            </h5>
+  	  			<input id="question-1-answer-a" type="radio" name="favelang" value=0> I e II <br>
+  				  <input id="question-1-answer-b" type="radio" name="favelang" value=0> III e I <br>
+  				  <input id="question-1-answer-c" type="radio" name="favelang" value=0> III e II <br>
+            <input id="question-1-answer-c" type="radio" name="favelang" value=3> n.D.A <br>
+  				  <div id="submit1" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div> 			
+            </div>
+
+  			 <div id="question-2">
+  				 <h2>Questão 2</h2>
+  				 <h3>As notificações de incidentes e abusos são importantes devido ao fato de:</h3>
+  	  		 <input id="question-2-answer-a" type="radio" name="favelang" value="3"> Contribuir para a segurança global da internet, na detecção de computadores infectados e também na autoproteção das pessoas<br><br>
+  				 <input id="question-2-answer-b" type="radio" name="favelang" value="0"> Não incluir a maior quantidade de informações tais como, data, horário, e-mail e logs completos<br><br>
+  				 <input id="question-2-answer-c" type="radio" name="favelang" value="0"> Identificar ataques coordenados e permitir que novos tipos de ataques sejam descobertos<br><br>
+           <input id="question-2-answer-c" type="radio" name="favelang" value="0"> Permitir que sejam escritos documentos, como recomendações e manuais direcionadas às necessidades dos usuários da internet<br><br>
+  				 <div id="submit2" class="button">Enviar Resposta</div>
+           <div class="clearfix"></div>
+  			 </div>
+  			
+  			 <div id="question-3">	
+  				 <h2>Questão 3</h2>
+  				 <h3>As contas e senhas são mecanismos de autenticação por qual razão?</h3>
+           <textarea   rows="8" cols="70" minlength="20" maxlength="350" name="favelang" placeholder=" Digite aqui..." id="textarea" onsubmit="return validate();"></textarea>
+  				 <div id="submit3" class="button">Enviar Resposta</div>
+           <div class="clearfix"></div>
+  			 </div>
+
+         <div id="question-4">
+            <h2>Questão 4</h2>
+            <h3>Qual a vantagem de usar criptografia?</h3>
+            <input id="question-4-answer-a" type="radio" name="favelang" value="0"> Comunicações digitais, como na troca de mensagens <br>
+            <input id="question-4-answer-b" type="radio" name="favelang" value="0"> A possibilidade de decifrar um texto difícil<br>
+            <input id="question-4-answer-c" type="radio" name="favelang" value="0"> Por fornecer níveis baixos de segurança<br>
+            <input id="question-4-answer-d" type="radio" name="favelang" value="3"> Proteção dos dados contra acesso indivíduos<br>
+            <div id="submit4" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-5">
+            <h2>Questão 5</h2>
+          <h3>Quais as principais vantagens de utilizar o sistema de backup?</h3>
+          <textarea   rows="8" cols="70" minlength="20" maxlength="350" name="favelang" placeholder=" Digite aqui..."required></textarea>
+            <div id="submit5" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-6">
+            <h2>Questão 6</h2>
+            <h3>Qual a diferença entre backup-full, backup incremental e backup diferencial?</h3>
+            <textarea   rows="8" cols="70" minlength="20" maxlength="350" name="favelang" placeholder=" Digite aqui..."required></textarea>
+           
+            <div id="submit6" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-7">
+            <h2>Questão 7</h2>
+            <h3>Qual desses programas antimalware podem ser localmente instalados no computador ou executados sob demanda por intermidia do navegador web: </h3>
+            <input id="question-7-answer-a" type="radio" name="favelang" value="3">Execução<br>
+            <input id="question-7-answer-b" type="radio" name="favelang" value="0">Método de detecção<br>
+            <input id="question-7-answer-c" type="radio" name="favelang" value="0">Forma de obtenção<br>
+            <input id="question-7-answer-d" type="radio" name="favelang" value="0">Funcionalidade apresentadas<br>
+            <div id="submit7" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-8">
+            <h2>Questão 8</h2>
+            <h3>Quando o firewall é bem configurado ele é capaz de:</h3>
+            <input id="question-8-answer-a" type="radio" name="favelang" value="0"> Liberar o tráfego de saída do seu computador <br>
+            <input id="question-8-answer-b" type="radio" name="favelang" value="3"> Bloquear o envio para terceiros de informações coletadas por invasores e códigos maliciosos <br>
+            <input id="question-8-answer-c" type="radio" name="favelang" value="0"> Verificar a procedência e certificar-se de que o fabricante é confiável <br>
+            <input id="question-8-answer-c" type="radio" name="favelang" value="0"> Registrar a maior quantidade de informações <br>
+            <div id="submit8" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+         
+         <div id="question-9"> 
+           <h2>Obrigado por responder a pesquisa!</h2>
+           <h3>Seu score de segurança é: </h3>
+           <h1 id=printtotalscore></h1>
+           <p id=printscoreinfo></p>
+
+         </div>
+
+
+  				
+  	  	</form>
+
+  	  </div>
+  	</div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
